@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reviews",
+  "info": {
+    "singularName": "review",
+    "pluralName": "reviews",
+    "displayName": "review",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "email": {
+      "type": "email",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "stars": {
+      "required": true,
+      "type": "biginteger",
+      "pluginOptions": {}
+    },
+    "username": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "productId": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "image": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}
